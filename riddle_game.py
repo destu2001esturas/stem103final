@@ -59,17 +59,3 @@ def play_riddle_game():
 
 if __name__ == "__main__":
     play_riddle_game()
-
-#Title: Historical and Pop culture Riddles.
-
-#Discription: return True and False, to confirm if the user's answer is correct or incorrect
-#and when they finished the final result will show the user whats there score.
-
-#What I learned in class?, druing my time is how carefully check for mistakes/errors and
-#if ever I'm having troubles with my code I can always ask for help from my instructor.
-
-#A new Python feature or concept i happen to discover is that I add score to
-#my code to see how well I/someone scored on the game.
-
-#The biggest challenge is how get the riddles and answers working,
-#eventually I managed to get it to work.
