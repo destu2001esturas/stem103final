@@ -12,10 +12,9 @@ def inspect_answer(the_user_guess, real_answer):
 
 def play_riddle_game():
     """
-    These questions are from past events and pop cultures. But the
-    last 2 riddles are a surprise.
+    These questions are from past events and pop cultures.
     """
-    # variables
+    #variables
     riddles = [
         ("He always use iron sights instead of a scope during the winter war?", "Simo Hayha"),
         ("He has a white feather on his bush hat during the vietnam war?", "Carlos Hathcock"),
@@ -34,21 +33,20 @@ def play_riddle_game():
     print("Welcome are you ready to start?")
     print("Let's see how well you are, good luck.\n")
 
-    # loop
+    #loop
     for riddle_text, answer in riddles:
         print(f"Riddle: {riddle_text}")
 
-        # variable
         the_user_guess = input("Your answer: ")
 
-        # function and if/else statements
+        #function and if/else statements
         if inspect_answer(the_user_guess, answer):
             print("Correct.\n")
             score += 1
         else:
             print(f"Incorrect. The real answer was '{answer}'.\n")
 
-    # final result
+    #final result
     print(f"Game Over You answered {score} out of {len(riddles)}.")
     if score == len(riddles):
         print("You are a winner")
